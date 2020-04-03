@@ -1,0 +1,24 @@
+Project Title:    Text classification over 20 News group dataset Using CNN Model.
+Description:    Through this application, we perform text classification over the text dataset called 20 News group dataset. Here to make document classification, we apply deep learning model called Convolution Neural Networks model. The text classification process includes following steps.
+•	Integrating the text from multiple documents.
+•	Pre-processing text and collect the labels.
+•	Tokenizing the text.
+•	Configure model parameters.
+•	Map the tokens with glove embeddings and prepare embedding matrix.
+•	Split the dataset into training dataset and testing dataset.
+•	Preparing input embedding layer.
+•	Configuring CNN Model.
+•	Perform training process.
+•	Evaluate model accuracy with test dataset.
+•	Save the model weights.
+•	Loading the model and predict the class label for set of sample text documents.
+Software Requirements
+To complete the text classification process, we require the following list of software.
+•	Anaconda with python 3.5
+•	Tensorflow 2.1
+•	Flask 1.5
+•	HTML/CSS
+20 News Group dataset
+This dataset is a collection of newsgroup documents. The 20 newsgroups collection has become a popular data set for experiments in text application like classification and clustering.The 20 newsgroups dataset comprises around 18000 newsgroups posts on 20 topics split in two subsets: one for training (or development) and the other one for testing (or for performance evaluation). The data is organized into 20 different newsgroups, each corresponding to a different topic. Some of the newsgroups are very closely related to each other. To download this dataset we use the following link.
+http://qwone.com/~jason/20Newsgroups/
+
